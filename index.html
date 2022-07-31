@@ -270,5 +270,16 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script src="contact.js"></script>
 
+<!-- custom scroll restoration -->
+  <script>
+    if (history.scrollRestoration) {
+    history.scrollRestoration = 'manual';
+    } else {
+    window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+      }
+    }
+  </script>
+
   </body>
 </html>
