@@ -21,6 +21,10 @@ body{
   overflow-x: hidden;
 }
 
+.hide{
+    display: none;
+}
+
 .heading{
   margin:2rem;
   padding-top: 6rem;
