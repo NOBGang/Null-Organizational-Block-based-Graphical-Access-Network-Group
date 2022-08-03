@@ -47,3 +47,18 @@ function readMore(btn){
     post.querySelector(".more").classList.toggle("hide");
     btn.textContent == "Read More" ? btn.textContent = "Read Less" : btn.textContent = "Read More";
 }
+
+//Senku
+var letB = function(){
+document.getElementById("alpha").src = "img/josh.jpg";
+document.getElementById("beta").src = "img/josh2.jpg";
+document.getElementById("flipswitch").setAttribute( "onClick", "javascript: letA();" );
+document.getElementById("card-object-hf").style.animation = "flip-horizontal-bottom 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both"
+}
+
+var letA = function(){
+document.getElementById("alpha").src = "img/josh2.jpg";
+document.getElementById("beta").src = "img/josh.jpg";
+document.getElementById("flipswitch").setAttribute("onClick", "javascript: letB();");
+document.getElementById("card-object-hf").style.animation = "flip-horizontal-top 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both"
+}
