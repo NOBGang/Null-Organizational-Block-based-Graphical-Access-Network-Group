@@ -8,7 +8,7 @@
   font-family: 'Montserrat', sans-serif;
   margin:0; padding:0;
   box-sizing: border-box;
-  text-transform: capitalize;
+  text-transform: none;
   transition: all .2s linear;
   text-decoration: none;
 }
@@ -223,9 +223,10 @@ body{
 }
 
 .about .row .content p{
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #333;
   padding:1rem 0;
+  text-transform: none;
 }
 
 .about::before, .about::after{
@@ -279,7 +280,7 @@ body{
 }
 
 .service .row .content p{
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color:#333;
   padding:1rem 0;
 }
@@ -397,12 +398,12 @@ body{
 .contact .row .form-container input, textarea{
   outline: none;
   border:none;
-  height:4rem;
+  height: 4rem;
   background: none;
   border-radius: .5rem;
   box-shadow: .2rem .2rem .5rem rgba(0,0,0,.2);
-  padding:0 1rem;
-  margin:1rem 0;
+  padding: 0 1rem;
+  margin: 1rem 0;
   font-size: 1.6rem;
   text-transform: none;
 }
@@ -423,16 +424,16 @@ body{
 
 .contact .row .form-container textarea{
   width: 100%;
-  height:20rem;
-  padding:1rem;
+  height: 20rem;
+  padding: 1rem;
   resize: none;
 }
 
 .contact .row .form-container input[type="submit"]{
   background-color: var(--color);
-  color:#fff;
+  color: #fff;
   cursor: pointer;
-  height:4rem;
+  height: 4rem;
   width: 10rem;;
 }
 
@@ -451,12 +452,12 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding:0 2rem;
+  padding: 0 2rem;
 }
 
 .faq .row .image img{
-  height:70vh;
-  width:50vw;
+  height: 70vh;
+  width: 50vw;
 }
 
 .faq .row .accordion-container{
@@ -466,7 +467,7 @@ body{
 
 .faq .row .accordion-container .accordion .accordion-header{
   background-color: var(--color);
-  margin:1rem 0;
+  margin: 1rem 0;
   box-shadow: .1rem .1rem .3rem rgba(0,0,0,.3);
   cursor: pointer;
 }
@@ -474,12 +475,12 @@ body{
 .faq .row .accordion-container .accordion .accordion-header span{
   display: inline-block;
   text-align: center;
-  height:4rem;
-  width:5rem;
+  height: 4rem;
+  width: 5rem;
   line-height: 4rem;
   font-size: 2rem;
-  background:#fff;
-  color:#333;
+  background: #fff;
+  color: #333;
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
@@ -492,10 +493,10 @@ body{
 }
 
 .faq .row .accordion-container .accordion .accordion-body{
-  padding:1rem;
-  color:#444;
+  padding: 1rem;
+  color: #444;
   box-shadow: .1rem .1rem .3rem rgba(0,0,0,.3);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   display: none;
 }
 
@@ -524,16 +525,6 @@ body{
   font-size: 1.8rem;
   padding:0 1rem;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -659,6 +650,8 @@ body{
     padding:2rem 0;
   }
 }
+
+
 
 /*Senku*/
 @keyframes flip-horizontal-bottom {
