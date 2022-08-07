@@ -660,7 +660,6 @@ body{
 
 
 
-/*Senku*/
 @keyframes flip-horizontal-bottom {
   0% {
             transform: rotateX(0);
@@ -678,6 +677,7 @@ body{
   }
 }
 
+/*Senku*/
 #alpha, #beta, #flipswitch {
     height: 13rem;
     width: 13rem;
