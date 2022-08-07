@@ -372,11 +372,13 @@ body{
   margin-top: 1rem;
   font-size: 1.5rem;
   font-weight: 400;
+  transition: .4s;
   box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
 
 .team button:hover{
-  letter-spacing: .05rem;
+  transform: scale(1) translateY(-3px);
+	transition: .4s;
 }
 
 .contact{
