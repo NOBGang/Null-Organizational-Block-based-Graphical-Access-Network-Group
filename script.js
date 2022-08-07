@@ -62,3 +62,48 @@ document.getElementById("beta").src = "img/josh.jpg";
 document.getElementById("flipswitch").setAttribute("onClick", "javascript: letB();");
 document.getElementById("card-object-hf").style.animation = "flip-horizontal-top 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both"
 }
+
+//RYY
+var letB2 = function(){
+document.getElementById("alpha2").src = "img/ry.jpg";
+document.getElementById("beta2").src = "img/ry2.jpg";
+document.getElementById("flipswitch2").setAttribute( "onClick", "javascript: letA2();" );
+document.getElementById("card-object-hf2").style.animation = "flip-horizontal-bottom 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both"
+}
+
+var letA2 = function(){
+document.getElementById("alpha2").src = "img/ry2.jpg";
+document.getElementById("beta2").src = "img/ry.jpg";
+document.getElementById("flipswitch2").setAttribute("onClick", "javascript: letB2();");
+document.getElementById("card-object-hf2").style.animation = "flip-horizontal-top 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both"
+}
+
+//CYY
+var letB3 = function(){
+document.getElementById("alpha3").src = "img/cy.jpg";
+document.getElementById("beta3").src = "img/cy2.jpg";
+document.getElementById("flipswitch3").setAttribute( "onClick", "javascript: letA3();" );
+document.getElementById("card-object-hf3").style.animation = "flip-horizontal-bottom 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both"
+}
+
+var letA3 = function(){
+document.getElementById("alpha3").src = "img/cy2.jpg";
+document.getElementById("beta3").src = "img/cy.jpg";
+document.getElementById("flipswitch3").setAttribute("onClick", "javascript: letB3();");
+document.getElementById("card-object-hf3").style.animation = "flip-horizontal-top 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both"
+}
+
+//LEE
+var letB4 = function(){
+document.getElementById("alpha4").src = "img/angelo.jpg";
+document.getElementById("beta4").src = "img/angelo2.jpg";
+document.getElementById("flipswitch4").setAttribute( "onClick", "javascript: letA4();" );
+document.getElementById("card-object-hf4").style.animation = "flip-horizontal-bottom 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both"
+}
+
+var letA4 = function(){
+document.getElementById("alpha4").src = "img/angelo2.jpg";
+document.getElementById("beta4").src = "img/angelo.jpg";
+document.getElementById("flipswitch4").setAttribute("onClick", "javascript: letB4();");
+document.getElementById("card-object-hf4").style.animation = "flip-horizontal-top 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both"
+}
