@@ -287,6 +287,64 @@ body{
   text-align: justify;
 }
 
+.templates{
+  min-height: 100vh;
+  width: 100vw;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.templates .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding:0 4rem;
+}
+
+.templates .row .content{
+  text-align: left;
+}
+
+.templates .row .image img{
+  width: 50vw;
+}
+
+.templates .row .content h3{
+  font-size: 3rem;
+  color: var(--color);
+}
+
+.templates .row .content p{
+  font-size: 1.7rem;
+  color: #333;
+  padding:1rem 0;
+  text-transform: none;
+  text-align: justify;
+}
+
+.templates::before, .about::after{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  opacity:.2;
+  border-radius: 50%;
+}
+
+.templates::before{
+  height:50rem;
+  width:50rem;
+  background:#ccc;
+  bottom:-10rem; left:-10rem;
+}
+
+.templates::after{
+  height:60rem;
+  width:60rem;
+  background:var(--color);
+  top:-10rem; right:-10rem;
+}
+
 .team{
   min-height: 100vh;
   width:100vw;
