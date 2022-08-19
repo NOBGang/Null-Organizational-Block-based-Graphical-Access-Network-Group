@@ -882,10 +882,10 @@ body{
 
 /*Templates*/
 div.gallery {
-  margin: 5px;
+  margin: 20px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 310px;
 }
 
 div.gallery:hover {
