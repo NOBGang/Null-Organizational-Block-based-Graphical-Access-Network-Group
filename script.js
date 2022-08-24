@@ -95,15 +95,15 @@ document.getElementById("card-object-hf3").style.animation = "flip-horizontal-to
 
 //LEE
 var letB4 = function(){
-document.getElementById("alpha4").src = "img/angelo.jpg";
-document.getElementById("beta4").src = "img/angelo2.jpg";
+document.getElementById("alpha4").src = "img/lee.jpg";
+document.getElementById("beta4").src = "img/lee2.jpg";
 document.getElementById("flipswitch4").setAttribute( "onClick", "javascript: letA4();" );
 document.getElementById("card-object-hf4").style.animation = "flip-horizontal-bottom 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both"
 }
 
 var letA4 = function(){
-document.getElementById("alpha4").src = "img/angelo2.jpg";
-document.getElementById("beta4").src = "img/angelo.jpg";
+document.getElementById("alpha4").src = "img/lee2.jpg";
+document.getElementById("beta4").src = "img/lee.jpg";
 document.getElementById("flipswitch4").setAttribute("onClick", "javascript: letB4();");
 document.getElementById("card-object-hf4").style.animation = "flip-horizontal-top 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both"
 }
